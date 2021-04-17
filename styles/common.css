@@ -7,8 +7,8 @@
 	--secondary-color: #23272A;
 	--grey-text: #c9ccd6;
     --error-color: #fc4747;
-    --blue: #ff0000;
-    --light-blue: #FF6347;
+    --color: #ff0000;
+    --light-color: #FF6347;
 }
 
 * {
@@ -64,7 +64,7 @@ body {
     height: 70px;
     font-weight: 400;
     background-color: var(--secondary-color);
-    border-bottom: var(--blue) 5px solid;
+    border-bottom: var(--color) 5px solid;
 }
 
 .navbar ul {
@@ -84,7 +84,7 @@ body {
 
 .navbar .currentPage,
 .navbar .currentPage:hover {
-    color: var(--light-blue);
+    color: var(--light-color);
 }
 
 .navbar .flex {
@@ -109,14 +109,14 @@ body {
 
 /* Footer */
 .footer {
-    border-top: var(--blue) 5px solid;
+    border-top: var(--color) 5px solid;
     padding: 30px;
     height: 200px;
     background-color: var(--secondary-color);
 }
 
 .footer h4 {
-    color: var(--light-blue);
+    color: var(--light-color);
     font-weight: 400;
     font-size: 1.5rem;
 }
