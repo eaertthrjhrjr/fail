@@ -3,12 +3,12 @@
 
 /* Body */
 :root {
-    --primary-color: #2C2F33;
-	--secondary-color: #23272A;
+    --primary-color: #000000;
+	--secondary-color: #000000;
 	--grey-text: #c9ccd6;
     --error-color: #fc4747;
-    --color: #ff0000;
-    --light-color: #FF6347;
+    --color: #00ff00;
+    --light-color: #90EE90;
 }
 
 * {
